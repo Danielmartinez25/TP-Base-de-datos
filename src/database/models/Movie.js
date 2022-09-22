@@ -12,7 +12,7 @@ const cols = {
     allowNull: false,
   },
   rating: {
-    type: DataTypes.DECIMAL(3, 1).UNSIGNED,
+    type: dataTypes.DECIMAL(3, 1).UNSIGNED,
     allowNull: false,
   },
   awards: {

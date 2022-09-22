@@ -1,5 +1,5 @@
 module.exports = (sequelize, dataTypes) => {
-  const alias = "Genre";
+  const alias = "Genres";
   const cols = {
     id: {
       type: dataTypes.INTEGER.UNSIGNED,
@@ -12,7 +12,7 @@ module.exports = (sequelize, dataTypes) => {
       allowNull: false,
     },
     ranking: {
-      type: DataTypes.INTEGER.UNSIGNED,
+      type: dataTypes.INTEGER.UNSIGNED,
       allowNull: false,
       unique : true
     },
